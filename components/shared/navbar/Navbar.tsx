@@ -9,18 +9,20 @@ const Navbar = () => {
     <div className="bg-foreground">
       <ContainerLayout>
         <nav className="navbar">
-          {/* logo */}
-          {/* <Image src={logo} alt="logo" className="logo" /> */}
-          <h2 className="logo">Freej Trivia</h2>
+          <div className="flex items-center gap-32">
+            {/* logo */}
+            {/* <Image src={logo} alt="logo" className="logo" /> */}
+            <h2 className="logo">Freej Trivia</h2>
 
-          {/* navLinks */}
-          <ul className="navLinks">
-            {navItems.map((item) => (
-              <li key={item.name}>
-                <ActiveLink href={item.href}>{item.name}</ActiveLink>
-              </li>
-            ))}
-          </ul>
+            {/* navLinks */}
+            <ul className="navLinks">
+              {navItems.map((item) => (
+                <li key={item.name}>
+                  <ActiveLink href={item.href}>{item.name}</ActiveLink>
+                </li>
+              ))}
+            </ul>
+          </div>
 
           {/* langBtn */}
           <Link href="#" className="lang-btn">

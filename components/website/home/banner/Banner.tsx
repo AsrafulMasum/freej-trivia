@@ -1,6 +1,6 @@
 import CustomButton from "@/components/shared/CustomButton";
 import Avatar from "./Avatar";
-import { Play } from "lucide-react";
+import { FaPlay } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -24,12 +24,12 @@ const Banner = () => {
         <CustomButton
           style="bg-[linear-gradient(191deg,#0080FF_1.79%,#04A3FF_95.03%)] rounded-full w-[310px] h-[96px] text-xl font-medium cursor-pointer shadow-[0_2px_4px_0_rgba(0,0,0,0.16)]"
           text="Start Offline Game"
-          leftIcon={<Play className="mr-2" />}
+          leftIcon={<FaPlay className="mr-2" />}
         />
         <CustomButton
           style="bg-[linear-gradient(123deg,#FF3636_16.52%,#FF6262_86.4%)] rounded-full w-[310px] h-[96px] text-xl font-medium cursor-pointer shadow-[0_2px_4px_0_rgba(0,0,0,0.16)]"
           text="Melas vs Melas Game"
-          leftIcon={<Play className="mr-2" />}
+          leftIcon={<FaPlay className="mr-2" />}
         />
       </div>
     </div>

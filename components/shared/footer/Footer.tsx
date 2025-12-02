@@ -48,7 +48,7 @@ export function Footer() {
           </div>
 
           {/* Right section - Navigation and Social */}
-          <div className="flex flex-col items-end gap-8">
+          <div className="flex flex-col items-center gap-8">
             {/* Navigation links */}
             <div className="flex gap-8">
               {navLinks.map((link) => (
@@ -61,6 +61,8 @@ export function Footer() {
                 </Link>
               ))}
             </div>
+
+            <div className="bg-[linear-gradient(281deg,rgba(255,137,55,0)_16.01%,#FF8937_51.37%,rgba(255,137,55,0)_82.27%)] w-[400px] h-0.5"></div>
 
             {/* Social media icons */}
             <div className="flex gap-8">

@@ -158,7 +158,7 @@ interface LiveRoomCardProps {
 
 function LiveRoomCard({ room }: LiveRoomCardProps) {
   return (
-    <div className="bg-white/20 backdrop-blur-md rounded-3xl p-6 sm:p-8 flex flex-col justify-between h-72 border border-white/30 hover:bg-white/25 transition-colors">
+    <div className="bg-white/20 backdrop-blur-md rounded-3xl p-5 flex flex-col justify-between h-72 border border-white/30 hover:bg-white/25 transition-colors">
       {/* Header */}
       <div>
         <h3 className="text-sm sm:text-base font-bold text-white tracking-wide">
@@ -174,7 +174,7 @@ function LiveRoomCard({ room }: LiveRoomCardProps) {
           {Array.from({ length: room.participants }).map((_, idx) => (
             <img
               key={`avatar-${idx}`}
-              src={`https://i.pravatar.cc/150?img=${idx + 1}`} // replace with real images
+              src={`https://i.pravatar.cc/150?img=${idx + 1}`}
               className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-white object-cover"
               alt="participant"
             />

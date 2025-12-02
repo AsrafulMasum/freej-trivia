@@ -1,11 +1,27 @@
-import Banner from "@/components/website/home/Banner";
+import Banner from "@/components/website/home/banner/Banner";
+import { HowItWorks } from "@/components/website/home/how-it-works/HowItWorks";
+import { JoinLiveRoom } from "@/components/website/home/live-room/JoinLiveRoom";
+import { PlayersFeedback } from "@/components/website/home/testimonials/PlayersFeedback";
 import ContainerLayout from "@/layout/ContainerLayout";
+import Image from "next/image";
 
 const page = () => {
   return (
     <div className="min-h-screen">
       <ContainerLayout>
         <Banner />
+        <JoinLiveRoom />
+        <HowItWorks />
+      </ContainerLayout>
+      <Image
+        className="w-full"
+        src="/downloadBanner.png"
+        alt="divider"
+        width={1000}
+        height={100}
+      />
+      <ContainerLayout>
+        <PlayersFeedback />
       </ContainerLayout>
     </div>
   );

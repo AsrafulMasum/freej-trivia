@@ -149,3 +149,21 @@
     @apply flex items-center gap-2;
   }
 }
+
+@keyframes bounceUp {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+/* Custom animation with infinite loop */
+.animate-bounce-up {
+  animation-name: bounceUp;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+

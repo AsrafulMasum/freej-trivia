@@ -14,7 +14,7 @@ export default function CategoryCard({ name, icon }: CategoryCardProps) {
         "group relative flex flex-col items-center justify-center",
         "rounded-3xl",
         "p-8 md:p-12 h-48 cursor-pointer",
-        "transition-all duration-300 hover:scale-105 hover:shadow-2xl bg-white/20 backdrop-blur-md",
+        "transition-all duration-300 hover:shadow-2xl bg-white/20 backdrop-blur-md",
         "active:scale-95",
       )}
     >

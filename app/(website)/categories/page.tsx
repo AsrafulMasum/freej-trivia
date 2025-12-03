@@ -1,4 +1,4 @@
-import CategoryCard from "@/components/categories/CategoryCard";
+import CategoryCard from "@/components/website/categories/CategoryCard";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
 

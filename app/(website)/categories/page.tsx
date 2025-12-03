@@ -15,7 +15,7 @@ const categories = [
 
 const page = () => {
   return (
-    <section className="relative min-h-screen bg-[linear-gradient(181deg,#BC4EA8_0.62%,#E03E68_47.14%,#FE8D45_99.35%)] overflow-hidden px-4 py-16">
+    <section className="relative min-h-[calc(100vh-75px)] bg-[linear-gradient(181deg,#BC4EA8_0.62%,#E03E68_47.14%,#FE8D45_99.35%)] overflow-hidden px-4 py-16">
       {/* Decorative dots */}
       <div className="absolute top-10 left-10 w-2 h-2 bg-white rounded-full opacity-70 animate-pulse" />
       <div className="absolute top-32 right-20 w-2 h-2 bg-white rounded-full opacity-70 animate-pulse" />

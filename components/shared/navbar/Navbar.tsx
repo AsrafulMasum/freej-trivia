@@ -75,10 +75,12 @@ const Navbar = () => {
 
               <span>AR | EN</span>
             </Link>
-            <CustomButton
-              text="Login"
-              style="bg-[linear-gradient(191deg,#0080FF_1.79%,#04A3FF_95.03%)] rounded-full w-24 h-10 text-sm font-medium cursor-pointer shadow-[0_2px_4px_0_rgba(0,0,0,0.16)]"
-            />
+            <Link href="/login">
+              <CustomButton
+                text="Login"
+                style="bg-[linear-gradient(191deg,#0080FF_1.79%,#04A3FF_95.03%)] rounded-full w-24 h-10 text-sm font-medium cursor-pointer shadow-[0_2px_4px_0_rgba(0,0,0,0.16)]"
+              />
+            </Link>
           </div>
         </nav>
       </ContainerLayout>

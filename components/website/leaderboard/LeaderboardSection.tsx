@@ -33,7 +33,7 @@ export default function LeaderboardSection() {
   const [currentPage, setCurrentPage] = useState(1);
 
   return (
-    <div className="relative w-full min-h-screen px-4 py-12 md:px-8 lg:px-12">
+    <div className="relative w-full min-h-[calc(100vh-75px)] px-4 py-12 md:px-8 lg:px-12">
       <div className="absolute w-3 h-3 bg-white rounded-full opacity-60 top-12 left-12"></div>
       <div className="absolute w-2 h-2 bg-white rounded-full opacity-40 top-32 right-20"></div>
       <div className="absolute w-2 h-2 bg-white rounded-full opacity-50 bottom-32 left-8"></div>
